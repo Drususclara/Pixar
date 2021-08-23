@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #00aaff, #00ff6c);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculator {
+  table {
+    background: white;
+    height: 100%;
+
+    border: 1px;
+    font-size: 1.7rem;
+    font-family: "Poppins";
+    th {
+      height: 80px;
+      background: rgba(0, 0, 0, 0.75);
+    }
+    td {
+      button {
+        text-align: center;
+        height: 80px;
+        min-width: 80px;
+        background: #e4e4e4bf;
+        border: 1px solid white;
+        font-size: 1.7rem;
+      }
+    }
+  }
+}
